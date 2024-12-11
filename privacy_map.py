@@ -58,7 +58,7 @@ def determine_strictness(state):
     pending_states = ["Hawaii", "Maine", "Massachusetts", "Michigan", "Missouri", "New York", "Ohio", "Pennsylvania", "Wisconsin", "West Virginia"]
     strong_states = ["California", "Colorado", "Connecticut", "Delaware", "Indiana", "Montana", "Nevada", "New Hampshire", "New Jersey", "Oregon", "Tennessee", "Virginia"]
     weak_states = ["Florida", "Iowa", "Kentucky", "Minnesota", "Texas", "Utah", "Arizona", "North Carolina"]
-    very_weak_states = ["Alabama", "Alaska", "Arkansas", "Georgia", "Idaho", "Illinois", "Kansas", "Louisiana", "Maryland", "Mississippi", "Nebraska", "North Dakota", "Oklahoma", "Rhode Island", "South Carolina", "South Dakota", "Vermont", "Washington", "Wyoming"]
+    very_weak_states = ["Alabama", "Alaska", "Arkansas", "Georgia", "Idaho", "Illinois", "Kansas", "Louisiana", "Maryland", "Mississippi", "Nebraska", "North Dakota", "Oklahoma", "Rhode Island", "South Carolina", "South Dakota", "Vermont", "Washington", "Wyoming", "New Mexico"]
     
     if state in pending_states:
         return "Pending"
